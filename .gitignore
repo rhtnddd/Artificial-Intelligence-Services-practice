@@ -6,3 +6,12 @@ __pycache__/
 .env.*
 .claude/settings.local.json
 .DS_Store
+
+.gitignore
+README.md
+requirements.txt
+CLAUDE.md
+app/
+tests/
+checks/
+logs/
