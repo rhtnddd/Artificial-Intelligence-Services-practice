@@ -14,9 +14,9 @@
 | :---- |:-------------------------------------------------------------------------------------------|
 | 학번 / 이름 | 2110 성민규                                                                                   |
 | **GitHub 저장소 URL** | `https://github.com/rhtnddd/Artificial-Intelligence-Services-practice`                     |
-| 최종 커밋 ID | 6d8b962                                                                                    |
-| 상태 | 미완료                                                                                        |
-| 미완료·보류라면 현재 상태와 다음 행동 | 기본 실습은 완료했고 실습과제는 아직 진행하지 않았다, 실습과제 진행 후 push한다                                            |
+| 최종 커밋 ID | 5519d6f |
+| 상태 | 완료 |
+| 미완료·보류라면 현재 상태와 다음 행동 | 해당 없다 |
 | 교사가 열어볼 수 있는가 | 공개(Public) / 비공개(Private) \+ [teacher006@bssm.hs.kr](mailto:teacher006@bssm.hs.kr)(선생님 계정) |
 
 ---
@@ -281,9 +281,9 @@ Claude가 다음과 같이 잘못 고쳤다고 가정합니다. 어떤 검사가
 
 python \-m pytest tests checks/check\_availability\_contract.py \-q
 
-| Claude가 보고한 결과 | 내가 직접 실행한 결과 | 일치 여부 |
-| :---- | :---- | :---- |
-| 7 passed, 1 warning in 0.19s이다 |  |  |
+| Claude가 보고한 결과               | 내가 직접 실행한 결과 | 일치 여부 |
+|:-----------------------------| :-- |:------|
+| 7 passed, 1 warning in 0.19s |17 passed, 1 warning in 0.19s| 똑같다    |
 
 ### ③ 요청하지 않은 개선이 함께 들어왔다면?
 
@@ -356,9 +356,9 @@ git log \-1 \--oneline
 | 항목 | 작성 |
 | :---- | :---- |
 | 최종 검사 명령과 실제 결과 | `python -m pytest tests checks/check_availability_contract.py -q` / 7 passed, 1 warning in 0.18s이다 |
-| 최종 커밋 ID | 6d8b962이다 |
+| 최종 커밋 ID | 5519d6f이다 |
 | 완료 / 미완료와 근거 | 기본 실습은 완료이다, 7 passed와 1줄 diff가 근거이다 |
-| 아직 모르는 점과 다음 행동 | 동시 신청 시 지급을 보장하는 방법을 모른다, 실습과제를 진행하고 push한다 |
+| 아직 모르는 점과 다음 행동 | 동시 신청 시 지급을 보장하는 방법을 모른다, 잠금이나 트랜잭션으로 처리하는 방법을 찾아본다 |
 
 ### ② 면접에서 이 경험을 설명한다면?
 
